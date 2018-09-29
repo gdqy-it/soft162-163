@@ -1,0 +1,21 @@
+1. VMWare 里面的Ubuntu Linux:
+
+用户：ubuntu
+密码：12345678
+
+
+
+2. VirtualBox 里面的：
+
+2.1 ubuntu-17.10.1-desktop-amd64版本：
+用户：ubuntu
+密码：12345678
+
+
+2.2 ubuntu-17.10.1-server-adm64:
+用户：ubuntu
+密码：12345678
+
+MySQL数据库账号：
+用户名：root
+密码：12345678
