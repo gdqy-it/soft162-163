@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rela_title_updateGroupName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorBackground">
+        <ImageView
+            android:id="@+id/back_updateGroupNmae"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/returnlogo"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="群名称"
+            android:gravity="center"
+            android:layout_toRightOf="@id/back_updateGroupNmae"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="确定"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="18dp"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rela_title_updateGroupName">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tv_skin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="群名称"
+            android:textColor="#000"
+            android:textSize="16dp"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_below="@+id/tv_skin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入群名称"/>
+    </RelativeLayout>
+
+</RelativeLayout>
