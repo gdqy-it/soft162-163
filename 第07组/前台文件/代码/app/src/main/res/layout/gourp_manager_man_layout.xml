@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_main"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/ll_bg"
+        android:padding="2dp"
+        android:background="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="65dip"
+        android:layout_height="65dip"/>
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="14dip"
+        android:id="@+id/tv_nickname"
+        android:text="wdwdwd"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
